@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             (succeeded: Bool!, error: NSError!) -> Void in
             if error == nil {
                 println("We signed up")
-                return
+                self.performSegueWithIdentifier("showChatSegue", sender: nil)
             } else {
 //                let errorString = error.userInfo["error"] as NSString
                 println(error)
@@ -64,6 +64,8 @@ class ViewController: UIViewController {
             (user: PFUser!, error: NSError!) -> Void in
             if user != nil {
                 println("Signed Up")
+                self.performSegueWithIdentifier("showChatSegue", sender: nil)
+
             } else {
                 let alert = UIAlertView()
                 alert.title = "Error signing in"

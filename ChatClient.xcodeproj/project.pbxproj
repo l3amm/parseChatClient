@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A4625971AC32483BB41A2D3D /* libPods-ChatClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5089B501A494355B446C2DC /* libPods-ChatClient.a */; };
+		EF684DF219DA4E44009F0411 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF684DF119DA4E44009F0411 /* ChatViewController.swift */; };
 		EFBCA42B19DA47C00051E41F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBCA42A19DA47C00051E41F /* AppDelegate.swift */; };
 		EFBCA42D19DA47C00051E41F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBCA42C19DA47C00051E41F /* ViewController.swift */; };
 		EFBCA43019DA47C00051E41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFBCA42E19DA47C00051E41F /* Main.storyboard */; };
@@ -30,6 +31,7 @@
 		B81E982B17DC41F39AA3B5F4 /* Pods-ChatClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatClient.xcconfig"; path = "Pods/Pods-ChatClient.xcconfig"; sourceTree = "<group>"; };
 		C5089B501A494355B446C2DC /* libPods-ChatClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChatClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF684DEE19DA48A5009F0411 /* ChatClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ChatClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF684DF119DA4E44009F0411 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		EFBCA42519DA47C00051E41F /* ChatClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFBCA42919DA47C00051E41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFBCA42A19DA47C00051E41F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EFBCA42A19DA47C00051E41F /* AppDelegate.swift */,
+				EF684DF119DA4E44009F0411 /* ChatViewController.swift */,
 				EFBCA42C19DA47C00051E41F /* ViewController.swift */,
 				EFBCA42E19DA47C00051E41F /* Main.storyboard */,
 				EFBCA43119DA47C00051E41F /* Images.xcassets */,
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFBCA42D19DA47C00051E41F /* ViewController.swift in Sources */,
+				EF684DF219DA4E44009F0411 /* ChatViewController.swift in Sources */,
 				EFBCA42B19DA47C00051E41F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

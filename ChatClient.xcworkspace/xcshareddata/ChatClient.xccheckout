@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>42ED39D5-C283-4EB6-BC53-106862828873</string>
+	<string>3CF7ECCA-A83A-4F08-BC38-3A1AC58EEECD</string>
 	<key>IDESourceControlProjectName</key>
 	<string>ChatClient</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>F9C67FBEC2ADC702BAF2873B131FBD31E90571DA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>parseChatClient</string>
+			<string>ChatClient</string>
 		</dict>
 	</array>
 </dict>
