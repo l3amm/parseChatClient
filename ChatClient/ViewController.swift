@@ -45,6 +45,11 @@ class ViewController: UIViewController {
             } else {
 //                let errorString = error.userInfo["error"] as NSString
                 println(error)
+                let alert = UIAlertView()
+                alert.title = "Error signing in"
+                alert.message = "Couldn't sign in"
+                alert.addButtonWithTitle("Working!!")
+                alert.show()
             }
         }
         
@@ -60,7 +65,11 @@ class ViewController: UIViewController {
             if user != nil {
                 println("Signed Up")
             } else {
-                println("Didn't work to signup")
+                let alert = UIAlertView()
+                alert.title = "Error signing in"
+                alert.message = "Couldn't sign in"
+                alert.addButtonWithTitle("Working!!")
+                alert.show()
             }
         }
     }
